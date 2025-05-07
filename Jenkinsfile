@@ -9,7 +9,8 @@ pipeline {
 		}		
 		stage('build') {
 			steps {
-				sh './add_3_no.sh'
+				sh 'ls'
+				sh 'bash add_3_no.sh'
 			}
 		}
 	}
